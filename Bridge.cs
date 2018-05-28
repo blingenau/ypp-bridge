@@ -16,7 +16,6 @@ namespace quartermaster
     class Program
     {
         static Process yppProcess;
-        static StreamWriter w = File.AppendText(@"C:\Users\Blake\test\log.txt");
 
         [DllImport("user32.dll")]
         [return: MarshalAs(System.Runtime.InteropServices.UnmanagedType.Bool)]
