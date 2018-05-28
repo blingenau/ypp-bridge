@@ -116,6 +116,7 @@ namespace quartermaster
             }
             catch (Exception e)
             {
+                HandleError(e);
                 return 1;
             }
 
