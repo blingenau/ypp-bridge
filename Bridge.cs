@@ -150,8 +150,7 @@ namespace quartermaster
                             SendMessageToQM(response);
                             break;
                         default:
-                            Console.WriteLine("Action not found");
-                            break;
+                            throw new Exception("Action " + action + " not found.");
                     }
                     line = null;
                 }
