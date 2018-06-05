@@ -213,6 +213,9 @@ project.lock.json
 # VS Code config
 .vscode
 
+# Binaries
+Bridge.zip
+
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
